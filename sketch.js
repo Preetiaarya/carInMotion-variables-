@@ -1,3 +1,7 @@
+let leftWheel = 80;
+let rightWheel = 160;
+let body = 80;
+
 function setup() {
   createCanvas(400, 400);
 }
