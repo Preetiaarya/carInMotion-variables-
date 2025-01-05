@@ -9,10 +9,14 @@ function setup() {
 function draw() {
   background(220);
 
-  fill(255,0,0);
-  rect(80,220,80,60);
+  fill(255, 0, 0);
+  rect(body, 220, 80, 60);
   fill(0);
-  ellipse(80,280,50,50);
-  ellipse(160,280,50,50);
+  ellipse(leftWheel, 280, 50, 50);
+  ellipse(rightWheel, 280, 50, 50);
+
+  leftWheel = leftWheel + 1;
+  rightWheel = rightWheel + 1;
+  body = body + 1;
 }
 
