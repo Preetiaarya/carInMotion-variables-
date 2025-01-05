@@ -18,5 +18,11 @@ function draw() {
   leftWheel = leftWheel + 1;
   rightWheel = rightWheel + 1;
   body = body + 1;
+
+  if(rightWheel >= width||leftWheel>= width||body >= width){
+    rightWheel = 80;
+    leftWheel = 0;
+    body = 0;
+  }
 }
 
